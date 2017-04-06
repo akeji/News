@@ -577,7 +577,7 @@ public class JCVideoPlayerNews extends JCVideoPlayer {
             mVolumeDialog.getWindow().setLayout(-2, -2);
             WindowManager.LayoutParams localLayoutParams = mVolumeDialog.getWindow().getAttributes();
             localLayoutParams.gravity = Gravity.CENTER_HORIZONTAL | Gravity.TOP;
-
+            // 分支 develop
 //            localLayoutParams.y = getContext().getResources().getDimensionPixelOffset(R.dimen.jc_volume_dialog_margin_left);
             mVolumeDialog.getWindow().setAttributes(localLayoutParams);
         }
